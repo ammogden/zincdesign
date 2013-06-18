@@ -1,0 +1,84 @@
+﻿/*
+    BHS Colors:
+    Orange: #f8a11c
+    Gray:   #ccc
+    Blue:   #022f68
+    
+*/
+
+html, body {
+    font-family: sans-serif;
+}
+
+header {
+    border-bottom: 4px solid #f8a11c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #022f68;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+header div {
+
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#topnav
+{
+    height: 40px;
+    font-size: x-small;
+    background-color: #ccc;
+    }
+
+#header
+{
+    height: 60px;
+    }
+
+#zinclogo
+{
+    font-family: 'Sarina', cursive;
+    font-size: 35px;
+    float: left;
+    width: auto;
+    }
+
+#mainNav {
+    float: right;
+}
+
+    #mainNav li {
+        display: inline;
+        margin-left: 20px;
+    }
+
+        #mainNav li a {
+            font-size: 20px;
+        }
+
+            #mainNav li a.active {
+                color: #f8a11c;
+                text-decoration: underline;
+            }
